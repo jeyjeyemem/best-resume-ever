@@ -85,8 +85,9 @@ contributions:
 
 contact:
   email: joeljeremy.marquez@gmail.com
-  phone: +639167247095
-  street: San Mateo, Rizal, Philippines
+  phone: "+639167247095"
+  street: San Mateo, Rizal
+  city: Philippines
   github: jeyjeyemem
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
