@@ -84,7 +84,7 @@ contributions:
   url: https://github.com/XerProjects
 - name: minikube
   description: Troubleshot and fixed minikube ingress addon bug. Released in 1.23.1.
-  url: https://github.com/kubernetes/minikube/blob/master/CHANGELOG.md#version-1231---2021-09-17
+  url: https://github.com/kubernetes/minikube/releases/tag/v1.23.1
 
 contact:
   email: joeljeremy.marquez@gmail.com
