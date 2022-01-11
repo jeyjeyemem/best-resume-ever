@@ -82,6 +82,9 @@ contributions:
 - name: XerProjects
   description: Lightweight and easy-to-use CQRS + DDD libraries.
   url: https://github.com/XerProjects
+- name: minikube
+  description: Troubleshot and fixed ingress addon bug
+  url: https://github.com/kubernetes/minikube/commit/3636e35098e58bcb049f424836a392a024264a5b#diff-9a3084dcf3c8763e59e0a6fcf8a4fbafc0bafbd70258448a0a5283a2d66b1526
 
 contact:
   email: joeljeremy.marquez@gmail.com
