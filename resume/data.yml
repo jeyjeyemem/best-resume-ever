@@ -5,13 +5,12 @@ name:
   first: Joel Jeremy
   last: Marquez
 about: >
-  Hi! I'm a Senior Software Engineer with more than 5 years experience in building, testing, and 
-  maintaining high quality software systems. I am passionate about software development and automation
-  that is why I chose this career. I always try my best to be able to provide value and make an impact
-  in this industry. I specialized in the development and testing of integrated systems and I am also an
-  advocate of Agile practices when it comes to software development. 
+  Hi! I'm a Software Engineer Specialist with more than 6 years experience in building and maintaining high quality software systems. 
+  I am a fellow who loves learning and technology. I always try my best to provide value and make an impact in everything I do. 
+  I specialize in building and architecting maintainable, high performance, and distributed/scalable web applications and libraries. 
+  You may also checkout GitHub for some of my open-source projects - https://github.com/joeljeremy7.
 
-position: Senior Software Engineer
+position: Software Engineer Specialist
 
 birth:
   year: 1994
@@ -20,38 +19,17 @@ birth:
 # you may add more experiences by duplicating the template
 
 experience:
-- company: PayMaya Philippines Inc.
-  position: Senior Software Engineer
+- company: Maya (formerly PayMaya Philippines Inc.)
+  position: Software Engineer Specialist
   timeperiod: since March 2021
-  description: 
-  - Handled creation and execution of testing plans.
-  - Document and report bugs found during testing via Jira.
-  - Actively participated in Agile ceremonies (standups/planning/retrospective).
-  - Execute testing suites across multiple environments using Postman and/or ReadyAPI.
-  - Created automated test scripts to execute as part of GitLab CI/CD.
-  - Developed and tested software using Java and JUnit.
 
 - company: IBM Solutions Delivery Inc.
   position: Application Developer (Team Lead)
   timeperiod: July 2018 - March 2021
-  description: 
-  - Handled creation and execution of testing plans.
-  - Document and report bugs found during testing via Jira.
-  - Actively participated in Agile ceremonies (standups/planning/retrospective).
-  - Execute testing suites across multiple environments using SoapUI, qTest, Selenium.
-  - Created automated test scripts to execute as part of GitLab CI/CD.
-  - Developed and tested software using Java and JUnit/Cucumber.
 
 - company: Navitaire Philippines Inc.
   position: Senior Software Development Analyst
   timeperiod: January 2016 - July 2018
-  description: 
-  - Involved in multiple phases of Waterfall methodology (requirements/design/testing).
-  - Handled creation and execution of testing plans.
-  - Document and report bugs found during testing via Team Foundation Server.
-  - Execute testing suites across multiple environments using automated scripts and internal/properietary testing tools.
-  - Created automated test scripts to help streamline testing execution.
-  - Developed and tested software using C# and NUnit/xUnit.
 
 education:
 - degree: Bachelor of Science
@@ -61,53 +39,63 @@ education:
 # skill level goes from 0 to 100
 skills:
 - name: Java
-  level: 90
+  level: 95
 - name: C# (.NET Core/.NET Framework)
-  level: 90
-- name: GitLab CI/CD
   level: 90
 - name: JavaScript / TypeScript
   level: 80
-- name: Postman / ReadyAPI/ SoapUI
+- name: Kubernetes
   level: 90
-- name: Bash
-  level: 95
-- name: PowerShell
+- name: AWS
+  level: 85
+- name: GitHub Actions
+  level: 85
+- name: GitLab CI/CD
   level: 85
 
 projects:
-- name: PayMaya's Internal Merchant Onboarding Platform
-  # platform: "Tech: Java | JUnit | Bash | GitLab CI/CD"
+- name: Externalized Properties - https://github.com/joeljeremy7/externalized-properties
+  platform: "Java | Open Source | GitHub Actions"
+  description: >
+    A open-source, lightweight, and extensible library to resolve application properties from various external sources.
+- name: Deezpatch - https://github.com/joeljeremy7/deezpatch
+  platform: "Java | Open Source | GitHub Actions"
+  description: >
+    An open-source, simple, and performant message dispatch library (up to 15x faster than other existing solutions)
+- name: XerProjects - https://github.com/XerProjects
+  platform: "C# | Open Source | AppVeyor"
+  description: >
+    A collection of open-source C# libraries that aim to help developers build Command-Query Responsibility Segregation (CQRS) applications.
+- name: Internal Merchant Onboarding Platform
+  platform: "Java | AWS | GitLab CI/CD | Agile SDLC"
   timeperiod: since March 2021
   description: >
-    Worked in building PayMaya's internal merchant onboarding platform which is used to onboard vendors/merchants to a plethora of their FinTech solutions/products.
+    Joined Maya's internal merchant onboarding platform team which builds services that are used to onboard vendors/merchants to a plethora of their FinTech solutions/products.
     The platform integrates with various internal systems as well as external payment solutions such as Alipay, ShopeePay, and many more to make the system work.
 - name: Contact Center Telephony Applications / Services
-  # platform: "Tech: Java | JUnit | Bash | SoapUI | GitLab CI/CD"
+  platform: "Java | Open Shift | GitLab CI/CD | Agile SDLC"
   timeperiod: July 2018 - March 2021
   description: >
-    Worked with US clients (Banking/Insurance industry) in building their Computer Telephony Integration (CTI) applications and services. 
-    Our team worked on developing an easy-to-use desktop application where customer support agents can receive, transfer, or monitor calls.
-    As well as the back-end services that enables such features.
-- name: Navitaire Payment System
-  # platform: "Tech: C# / .NET | xUnit / nUnit | Bash | PowerShell"
+    Joined an IBM client's (Banking/Insurance industry) team in building the company's Computer-Telephony Integration (CTI) applications and services. 
+    Our team worked on developing an easy-to-use desktop application where customer support agents can receive, transfer, or monitor calls as well as the back-end services that enables such features.
+- name: Navitaire Common Architecture
+  platform: "C# / .NET | Agile SDLC"
   timeperiod: January 2016 - July 2018
   description: >
-    Worked with various US-based and Philippine-based airline clients in building Navitaire's in-house payment processing solution.
-    Our team worked on connecting Navitaire's booking system to various payment processors as required by the airlines.
-- name: Navitaire Airline Booking System
-  # platform: "Tech: C# / .NET | xUnit / nUnit | Bash | PowerShell"
+    Join Navitaire's internal technical architecture team which manages Navitaire's vertical infrastructure services that are used across multiple teams.
+- name: Booking and Payments Platform
+  platform: "C# / .NET | Waterfall SDLC"
   timeperiod: January 2016 - July 2018
   description: >
-    Worked with various US-based and Philippine-based airline clients in evolving Navitaire's core booking/reservation system.
-    The booking system is the heart of Navitaire's business and our team worked on the infrastructure which enables airlines to
-    integrate with other airlines and share information such as flight availability, seat maps, fares, and many more.
+    Joined Navitaire's booking and payments team to work with various US-based and Philippine-based airline clients in building and evolving Navitaire's in-house reservations and payment processing solution.
+    Our team worked on building the infrastructure needed for efficient booking/reservations and enabling of cross-airlines operations (sharing of flight availability, seat maps, fares, and many more)
+    as well as connecting Navitaire's booking system to various external payment processors as per airline's requirements.
 contact:
   email: joeljeremy.marquez@gmail.com
   phone: "+639167247095"
   street: Calasiao, Pangasinan
   city: Philippines
-  github: jeyjeyemem
+  github: joeljeremy7
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
