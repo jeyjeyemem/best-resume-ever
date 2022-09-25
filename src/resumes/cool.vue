@@ -3,7 +3,7 @@
     <div class="banner">
       <div class="banner__fullname">{{ person.name.first }} {{ person.name.middle }} {{ person.name.last }}</div>
       <div class="banner__position">{{ person.position }}</div>
-      <div v-if="person.birth" class="banner__location">{{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</div>
+      <div v-if="person.birth" class="banner__location">{{person.birth.location}}</div>
     </div>
 
     <div class="content">
@@ -114,7 +114,13 @@
               </span>
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
-              <span class="section-content__text--light">{{ experience.description }}</span>
+              <span class="section-content__text--light">
+                <ul class="experience-description">
+                  <li v-for="(description, index) in experience.description" :key="index">
+                    {{ description }}
+                  </li>
+                </ul>
+              </span>
             </a>
           </div>
         </div>
@@ -361,8 +367,6 @@ export default Vue.component(name, getVueOptions(name));
 }
 
 .section-content-grid {
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -377,5 +381,10 @@ export default Vue.component(name, getVueOptions(name));
   color: white;
   margin-top: 5px;
   padding: 5px;
+}
+
+.experience-description {
+  list-style-position: inside;
+  padding-left: 1em;
 }
 </style>

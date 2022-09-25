@@ -4,92 +4,108 @@
 name:
   first: Joel Jeremy
   last: Marquez
-about: Hi! I'm a passionate software developer whose always looking to improve his problem solving skills. 
-       I like to build software that creates value and those that make it easier for other developers to build software.
-       During weekdays, I devote my time in delivering value for my company and on my free time, I like to work on my fun little open source projects
-       (https://github.com/jeyjeyemem / https://github.com/XerProjects).
+about: >
+  Hi! I'm a Senior Software Engineer with more than 5 years experience in building, testing, and 
+  maintaining high quality software systems. I am passionate about software development and automation
+  that is why I chose this career. I always try my best to be able to provide value and make an impact
+  in this industry. I specialized in the development and testing of integrated systems and I am also an
+  advocate of Agile practices when it comes to software development. 
+
 position: Senior Software Engineer
 
 birth:
   year: 1994
-  location: Pangasinan, Philippines
+  location: Calasiao, Pangasinan, Philippines
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: PayMaya Philippines
-  position: Senior Software Developer (Java)
+- company: PayMaya Philippines Inc.
+  position: Senior Software Engineer
   timeperiod: since March 2021
-  description: Worked in building PayMaya's merchant onboarding platform.
+  description: 
+  - Handled creation and execution of testing plans.
+  - Document and report bugs found during testing via Jira.
+  - Actively participated in Agile ceremonies (standups/planning/retrospective).
+  - Execute testing suites across multiple environments using Postman and/or ReadyAPI.
+  - Created automated test scripts to execute as part of GitLab CI/CD.
+  - Developed and tested software using Java and JUnit.
 
-- company: IBM
-  position: Application Developer (Team Lead) (Java)
-  platform: Java
+- company: IBM Solutions Delivery Inc.
+  position: Application Developer (Team Lead)
   timeperiod: July 2018 - March 2021
-  description: Worked with US clients (Banking/Insurance industry) in building the company's Computer Telephony Integration (CTI) applications and services. 
+  description: 
+  - Handled creation and execution of testing plans.
+  - Document and report bugs found during testing via Jira.
+  - Actively participated in Agile ceremonies (standups/planning/retrospective).
+  - Execute testing suites across multiple environments using SoapUI, qTest, Selenium.
+  - Created automated test scripts to execute as part of GitLab CI/CD.
+  - Developed and tested software using Java and JUnit/Cucumber.
 
 - company: Navitaire Philippines Inc.
-  position: Senior Software Developer (C#)
+  position: Senior Software Development Analyst
   timeperiod: January 2016 - July 2018
-  description: Worked in various teams and with various US-based and Philippine-based clients in building booking/reservation systems for low-cost airlines.
-
-- company: Open Source (https://github.com/jeyjeyemem) (https://github.com/XerProjects)
-  position: Open Source Developer (Java / C#)
-  timeperiod: since January 2016
-  description: Built open-source Java / C# libraries.
-  website: https://github.com/jeyjeyemem
+  description: 
+  - Involved in multiple phases of Waterfall methodology (requirements/design/testing).
+  - Handled creation and execution of testing plans.
+  - Document and report bugs found during testing via Team Foundation Server.
+  - Execute testing suites across multiple environments using automated scripts and internal/properietary testing tools.
+  - Created automated test scripts to help streamline testing execution.
+  - Developed and tested software using C# and NUnit/xUnit.
 
 education:
 - degree: Bachelor of Science
   timeperiod: June 2011 - April 2015
-  description: Information Technology, Colegio de Dagupan, Pangasinan, Philippines
+  description: Information Technology, Colegio de Dagupan, Dagupan City, Pangasinan, Philippines
 
 # skill level goes from 0 to 100
 skills:
 - name: Java
-  level: 95
-- name: Spring Boot / Spring Framework
-  level: 95
+  level: 90
 - name: C# (.NET Core/.NET Framework)
   level: 90
-- name: ASP.NET Core / ASP.NET Framework
+- name: GitLab CI/CD
   level: 90
 - name: JavaScript / TypeScript
   level: 80
-- name: ReactJS
-  level: 80
-- name: Docker
-  level: 95
-- name: Kubernetes
+- name: Postman / ReadyAPI/ SoapUI
   level: 90
+- name: Bash
+  level: 95
+- name: PowerShell
+  level: 85
 
 projects:
-- name: Externalized Properties
-  platform: Java
-  timeperiod: since November 2021
-  description: Lightweight and extensible library to resolve application properties from various external sources.
-  url: https://github.com/jeyjeyemem/externalized-properties
-- name: XerProjects
-  platform: C# / Java
-  timeperiod: since January 2018
-  description: Lightweight and easy-to-use CQRS + DDD libraries.
-  url: https://github.com/XerProjects
-
-contributions:
-- name: Externalized Properties
-  description: Lightweight and extensible library to resolve application properties from various external sources.
-  url: https://github.com/jeyjeyemem/externalized-properties
-- name: XerProjects
-  description: Lightweight and easy-to-use CQRS + DDD libraries.
-  url: https://github.com/XerProjects
-- name: minikube
-  description: Troubleshot and fixed minikube ingress addon bug. Released in 1.23.1.
-  url: https://github.com/kubernetes/minikube/releases/tag/v1.23.1
-
+- name: PayMaya's Internal Merchant Onboarding Platform
+  # platform: "Tech: Java | JUnit | Bash | GitLab CI/CD"
+  timeperiod: since March 2021
+  description: >
+    Worked in building PayMaya's internal merchant onboarding platform which is used to onboard vendors/merchants to a plethora of their FinTech solutions/products.
+    The platform integrates with various internal systems as well as external payment solutions such as Alipay, ShopeePay, and many more to make the system work.
+- name: Contact Center Telephony Applications / Services
+  # platform: "Tech: Java | JUnit | Bash | SoapUI | GitLab CI/CD"
+  timeperiod: July 2018 - March 2021
+  description: >
+    Worked with US clients (Banking/Insurance industry) in building their Computer Telephony Integration (CTI) applications and services. 
+    Our team worked on developing an easy-to-use desktop application where customer support agents can receive, transfer, or monitor calls.
+    As well as the back-end services that enables such features.
+- name: Navitaire Payment System
+  # platform: "Tech: C# / .NET | xUnit / nUnit | Bash | PowerShell"
+  timeperiod: January 2016 - July 2018
+  description: >
+    Worked with various US-based and Philippine-based airline clients in building Navitaire's in-house payment processing solution.
+    Our team worked on connecting Navitaire's booking system to various payment processors as required by the airlines.
+- name: Navitaire Airline Booking System
+  # platform: "Tech: C# / .NET | xUnit / nUnit | Bash | PowerShell"
+  timeperiod: January 2016 - July 2018
+  description: >
+    Worked with various US-based and Philippine-based airline clients in evolving Navitaire's core booking/reservation system.
+    The booking system is the heart of Navitaire's business and our team worked on the infrastructure which enables airlines to
+    integrate with other airlines and share information such as flight availability, seat maps, fares, and many more.
 contact:
   email: joeljeremy.marquez@gmail.com
   phone: "+639167247095"
-  street: San Mateo, Rizal
+  street: Calasiao, Pangasinan
   city: Philippines
   github: jeyjeyemem
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
