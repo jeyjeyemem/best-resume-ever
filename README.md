@@ -127,3 +127,7 @@ This project uses several open source packages:
 ## License
 
 [MIT](https://github.com/salomonelli/best-resume-ever/blob/master/LICENCE.md)
+
+## Fork Notes
+
+Some changes were made to the `cool` reseme template variants.

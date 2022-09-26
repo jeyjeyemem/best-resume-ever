@@ -32,9 +32,10 @@ experience:
   timeperiod: January 2016 - July 2018
 
 education:
-- degree: Bachelor of Science
+- school: Colegio de Dagupan
+  degree: Bachelor of Science in Information Technology
   timeperiod: June 2011 - April 2015
-  description: Information Technology, Colegio de Dagupan, Dagupan City, Pangasinan, Philippines
+  description: Dagupan City, Pangasinan, Philippines
 
 # skill level goes from 0 to 100
 skills:
@@ -80,15 +81,15 @@ projects:
     Our team worked on developing an easy-to-use desktop application where customer support agents can receive, transfer, or monitor calls as well as the back-end services that enables such features.
 - name: Navitaire Common Architecture
   platform: "C# / .NET | Agile SDLC"
-  timeperiod: January 2016 - July 2018
+  timeperiod: March 2018 - July 2018
   description: >
     Joined Navitaire's internal technical architecture team which manages Navitaire's vertical infrastructure services that are used across multiple teams.
 - name: Booking and Payments Platform
   platform: "C# / .NET | Waterfall SDLC"
   timeperiod: January 2016 - July 2018
   description: >
-    Joined Navitaire's booking and payments team to work with various US-based and Philippine-based airline clients in building and evolving Navitaire's in-house reservations and payment processing solution.
-    Our team worked on building the infrastructure needed for efficient booking/reservations and enabling of cross-airlines operations (sharing of flight availability, seat maps, fares, and many more)
+    Joined Navitaire's booking and payments team in building and evolving Navitaire's reservations and in-house payment processing solution.
+    Our team worked on building the infrastructure needed for efficient booking and enabling of cross-airlines operations (sharing of flight availability, seat maps, fares, and many more)
     as well as connecting Navitaire's booking system to various external payment processors as per airline's requirements.
 contact:
   email: joeljeremy.marquez@gmail.com
@@ -96,6 +97,7 @@ contact:
   street: Calasiao, Pangasinan
   city: Philippines
   github: joeljeremy7
+  linkedin: joeljeremy
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

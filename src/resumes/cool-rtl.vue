@@ -70,7 +70,7 @@
               class="section-content__item-grid"
               :href="project.url">
               <span class="section-content__header"> {{ project.name }} </span>
-              <span class="section-content__subheader">{{ project.platform }}</span>
+              <span class="section-content__subheader section-project__platform">{{ project.platform }}</span>
               <span class="section-content__text">{{ project.description }}</span>
             </a>
           </div>
@@ -139,7 +139,7 @@
 
           <div class="section-content section-content--plain">
             <div class="section-link">
-              <i class="section-link__icon material-icons">business</i>{{ person.contact.street }}
+              <i class="section-link__icon material-icons">business</i>{{ person.contact.street }} {{ person.contact.city }}
             </div>
 
             <a
@@ -376,5 +376,10 @@ a {
 .experience-description {
   list-style-position: inside;
   padding-left: 1em;
+}
+
+.section-content__subheader {
+  color: @accent-color;
+  font-style: italic;
 }
 </style>

@@ -50,7 +50,7 @@
 
           <div class="section-content section-content--plain">
             <div class="section-link">
-              <i class="section-link__icon material-icons">business</i>{{ person.contact.street }}
+              <i class="section-link__icon material-icons">business</i>{{ person.contact.street }} {{ person.contact.city }}
             </div>
 
             <a
@@ -386,5 +386,10 @@ export default Vue.component(name, getVueOptions(name));
 .experience-description {
   list-style-position: inside;
   padding-left: 1em;
+}
+
+.section-content__subheader {
+  color: @accent-color;
+  font-style: italic;
 }
 </style>
